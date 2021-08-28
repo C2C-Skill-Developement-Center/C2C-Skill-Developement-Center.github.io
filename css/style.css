@@ -1,1 +1,284 @@
+body{
+    height: 100%;
+    font-family: 'Roboto Condensed', sans-serif;
+	font-size: large;
+}
 
+.navbar .megamenu{ padding: 1rem; }
+@media all and (min-width: 992px) {
+	
+	.navbar .has-megamenu{position:static!important;}
+	.navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+	
+}	
+
+
+@media(max-width: 991px){
+	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+		overflow-y: auto;
+	    max-height: 90vh;
+	    margin-top:10px;
+	}
+}
+
+.dropdown-menu{
+	background-color: #fff;
+	border-radius: 20px;
+}
+
+.brand{
+	color: #d82a4e;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+	color: #d82a4e;
+}
+
+#main_nav{
+	text-align: left;
+}
+
+.list-unstyled li a{
+	color: black;
+	text-decoration: none;
+}
+
+.list-unstyled li h5{
+	color: #d82a4e;
+}
+
+.section-header a{
+	color: #d82a4e;
+}
+
+.first{
+	background-color: #f5f2f2;
+}
+
+.hero-section {
+	height: 700px;
+}
+
+.hero-text {
+	text-align: center;
+	padding-top: 340px;
+	margin-bottom: 105px;
+}
+
+.hero-text h2 {
+	font-size: 60px;
+	font-weight: 500;
+	margin-bottom: 20px;
+	color: #d82a4e;
+}
+
+.intro-newslatter input[type=text],
+.intro-newslatter input[type=email] {
+	height: 53px;
+	width: 36.4%;
+	padding: 0 30px;
+	margin-right: 22px;
+	float: left;
+	border: none;
+	font-size: 14px;
+}
+
+.intro-newslatter .site-btn {
+	min-width: 214px;
+}
+
+.services-title{
+	text-align: center;
+	font-size: 40px;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.service-description{
+	text-align: center;
+	margin-bottom: 40px;
+	font-weight: 300;
+}
+
+.categories-section .container {
+	margin-bottom: -34px;
+}
+
+.categorie-item {
+	margin-bottom: 34px;
+	background: #edf4f6;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	height: 455px;
+	border-radius: 30px;
+	}
+
+.categorie-item .ci-thumb {
+	background-size: cover;
+	height: 148px;
+	-webkit-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+}
+
+.categorie-item .ci-text {
+	padding: 40px 35px;
+}
+
+.categorie-item .ci-text h5 {
+	margin-bottom: 5px;
+}
+
+.categorie-item .ci-text span {
+	font-size: 18px;
+	font-weight: 600;
+	color: #d82a4e;
+}
+
+.categorie-item:hover {
+	background: #d82a4e;
+}
+
+.categorie-item:hover .ci-text h5,
+.categorie-item:hover .ci-text p,
+.categorie-item:hover .ci-text span {
+	color: #fff;
+}
+
+.section-title h2{
+	color: #d82a4e;
+}
+
+.section-title p{
+	color: #fff;
+}
+
+.service-head{
+	color: #d82a4e;
+}
+
+.services{
+	text-align: justify;
+}
+
+.technology-item {
+	margin-bottom: 34px;
+	background: #edf4f6;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	height: 100px;
+	border-radius: 30px;
+}
+
+.technology-item:hover{
+	background: #d82a4e;
+}
+.technology-item .logo{
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	width: 138px;
+	height: 34px;
+	padding-top: 30px;
+}
+
+.Career-item {
+	margin-bottom: 34px;
+	background: #edf4f6;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+	height: 100px;
+	border-radius: 30px;
+}
+
+.Career-item:hover{
+	background: #d82a4e;
+}
+.Career-item .career p{
+	margin: auto;
+	justify-content: center;
+	text-align: center;
+	position: relative;
+	width: 138px;
+	height: 34px;
+	padding-top: 40px;
+	font-weight: 900;
+	font-size: 1.0rem;
+}
+
+.me-5{
+	color: #d82a4e;
+}
+
+.me-4{
+	text-decoration: none;	
+}
+
+.social{
+	color: #d82a4e;
+}
+
+.text-uppercase{
+	color: #d82a4e;
+}
+
+.text-reset{
+	text-decoration: none;
+}
+
+.bi{
+	color: #d82a4e;
+}
+.company{
+	text-align: justify;
+}
+
+.terms{
+	width: 100%;
+}
+.terms a{
+	text-decoration: none;
+}
+
+.terms a h6{
+	font-size: 10px;
+}
+
+.site-btn {
+	display:inline-block;
+	min-width: 196px;
+	text-align:center;
+	padding: 15px 10px;
+	font-weight: 600;
+	font-size: 16px;
+	position: relative;
+	color: #fff;
+	cursor: pointer;
+	background: #d82a4e;
+	margin-right:5px;
+	border-radius: 10px;
+	text-decoration: none;
+}
+
+.login site-btn header-btn{
+	float: right;
+}
+
+.site-btn:hover {
+	color: #fff;
+}
+
+.site-btn.btn-dark {
+	background: #000;
+}
+
+.site-btn.btn-fade {
+	background: #e4edef;
+	color: #1f1f1f;
+}
